@@ -1,0 +1,50 @@
+/*
+ * http://github.com/peteboere/css-crush (v2.4.0)
+ */
+.field-inprogress {
+    font-size: .9em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(169,177,184,.54);
+    }
+.field-inprogress .container {
+    opacity: .96;
+    text-align: center;
+    margin-top: 37vh;
+    padding: 1.5em;
+    width: 500px;
+    max-width: 90%;
+    min-height: 20vh;
+    background-color: #fff;
+    border: solid 1px rgba(132,138,144,1);
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px rgba(132,138,144,.54);
+    box-shadow: 0 0 10px rgba(132,138,144,.54);
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    transition: all .8s;
+    }
+.field-inprogress .container:hover {
+    padding: 1.5em;
+    }
+.field-inprogress h2 {
+    margin: 0;
+    margin-bottom: 1em;
+    }
+.field-inprogress .close {
+    background-color: rgba(132,138,144,1);
+    color: #fff;
+    border-radius: 3px;
+    padding: 4px 10px;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: background-color .3s;
+    -moz-transition: background-color .3s;
+    transition: background-color .3s;
+    }
+.field-inprogress .close:hover {
+    background-color: rgba(132,138,144,.8);
+    }
